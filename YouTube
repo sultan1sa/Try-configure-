@@ -13,3 +13,4 @@
 https:\/\/www.youtube.com\/api\/timedtext\?.+&lang=(?!(ar|ar)&)((?!&tlang=ar).)*$ url request-header \sHTTP/1\.1(\r\n) request-header &tlang=ar HTTP/1.1$1
 // 简体；直接订阅  有繁体翻译介绍，打开链接查看
 // https://raw.githubusercontent.com/id77/QuantumultX/master/rewrite/Youtube_CC.conf
+hostname = %APPEND% -redirector*.googlevideo.com,*.googlevideo.com,www.youtube.com,s.youtube.com,youtubei.googleapis.com
